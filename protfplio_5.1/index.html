@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mohammad Dabbas — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Source+Sans+3:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <ul id="navMenu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#best">Best Projects</a></li>
+        <li><a href="#data">Data & AI</a></li>
+        <li><a href="#eng">Engineering</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">&#9776;</button>
+    </div>
+  </nav>
+
+  <!-- ABOUT -->
+  <section id="about" class="about snap-section">
+    <div class="about-content">
+      <div class="profile-ring">
+        <img src="WhatsApp Image 2026-03-24 at 12.44.13 AM.jpeg" class="profile" alt="Mohammad Dabbas"
+             onerror="this.src='https://ui-avatars.com/api/?name=Mohammad+Dabbas&size=160&background=1e3a8a&color=fff&rounded=true'">
+      </div>
+      <h1>Mohammad <span class="accent">Dabbas</span></h1>
+      <p class="tagline">Industrial Engineering Student &nbsp;·&nbsp; Building Smart Solutions</p>
+      <div class="skills">
+        <div class="skill" style="--i:0" data-tip="Programming & Data Analysis">Python</div>
+        <div class="skill" style="--i:1" data-tip="Database Querying">SQL</div>
+        <div class="skill" style="--i:2" data-tip="Spreadsheet & Modeling">Excel</div>
+        <div class="skill" style="--i:3" data-tip="Data Visualization">Power BI</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BEST PROJECTS — filled by JS, no numbers -->
+  <section id="best" class="projects snap-section">
+    <h2 class="section-title">Best Projects</h2>
+    <div class="cards" id="best-cards"></div>
+  </section>
+
+  <!-- DATA & AI — filled by JS, with numbers -->
+  <section id="data" class="data snap-section">
+    <h2 class="section-title">Data Analysis & AI</h2>
+    <div class="cards" id="data-cards"></div>
+  </section>
+
+  <!-- ENGINEERING — filled by JS, with numbers -->
+  <section id="eng" class="eng snap-section">
+    <h2 class="section-title">Engineering</h2>
+    <div class="cards" id="eng-cards"></div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact snap-section">
+    <h2 class="section-title light">Get In Touch</h2>
+    <div class="contact-cards">
+      <a href="/cdn-cgi/l/email-protection#aec3c1c6cfc3c3cfcacacfcccccfdd9c9e9e9beec7cdc2c1dbca80cdc1c3" class="contact-card">
+        <div class="contact-icon">✉</div>
+        <div class="contact-text">
+          <div class="contact-label">Email</div>
+          <div class="contact-value"><span class="__cf_email__" data-cfemail="83eeecebe2eeeee2e7e7e2e1e1e2f0b1b3b3b6c3eae0efecf6e7ade0ecee">[email&#160;protected]</span></div>
+        </div>
+      </a>
+      <a href="tel:+962791795881" class="contact-card">
+        <div class="contact-icon">📞</div>
+        <div class="contact-text">
+          <div class="contact-label">Phone</div>
+          <div class="contact-value">+962 79 179 5881</div>
+        </div>
+      </a>
+      <a href="https://www.linkedin.com/in/mohammad-dabbas-808b26295/" target="_blank" rel="noopener" class="contact-card">
+        <div class="contact-icon">in</div>
+        <div class="contact-text">
+          <div class="contact-label">LinkedIn</div>
+          <div class="contact-value">Mohammad Dabbas</div>
+  </div>
+</a>
+</div>
+</section>
+
+<script src="script (1).js"></script>
+</body>
+</html>
