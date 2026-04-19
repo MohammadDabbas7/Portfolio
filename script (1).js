@@ -93,7 +93,7 @@ const PORTFOLIO = {
       id: 'eng-3',
       title: 'MIYAHSPHERE',
       desc: 'A smart spherical inspection device designed to detect pipeline leaks and structural issues using advanced sensors, improving reliability and reducing maintenance costs.',
-      img: 'https://github.com/MohammadDabbas7/Portfolio/blob/main/13dc7546-6a06-40f0-81fc-50b9fdb0bef2.png',
+      img: '13dc7546-6a06-40f0-81fc-50b9fdb0bef2.png',
       tags: ['Web'],
       codeLinks: [
         { label: 'View web', url: 'https://mohammaddabbas7.github.io/MiyahSphere/' }
